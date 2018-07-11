@@ -7,6 +7,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+/*
+ * ========================================
+ * 			JUST A TEST CLASS
+ * 			  PLEASE IGNORE
+ * ========================================
+ */
 public class Main {
 	
 	public static void main(String[] args) {
@@ -22,7 +28,7 @@ public class Main {
 			data.add(temp);
 		}
 		
-		// Print out generated data
+		// Print out generated values
 		System.out.println("Data :");
 		for (double[] d : data) {
 			System.out.println(Arrays.toString(d));
@@ -46,6 +52,7 @@ public class Main {
 			System.out.println("\n===============\n");
 		}
 		
+		// Write result to result.data file, for later plotting
 		File file = new File("result.data");
 		try {
 			int counter = 1;
