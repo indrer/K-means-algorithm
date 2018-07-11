@@ -4,9 +4,9 @@ A simple algorithm used to group data into clusters to help analyze it better. `
 
 ### Quick tutorial
 ```
-            ArrayList<Cluster> result = new ArrayList<Cluster>();
-			Kmeans kmeans = new Kmeans(data, 5, 1000);
-			result = kmeans.iterate();
+    ArrayList<Cluster> result = new ArrayList<Cluster>();
+    Kmeans kmeans = new Kmeans(data, 5, 1000);
+	result = kmeans.iterate();
 ```
 
 The constructor takes the following parameters: 
@@ -30,8 +30,8 @@ The constructor takes the following parameters:
 Either fork/download this repo and use the files, or if you want a `.jar`, you can use `maven` to compile this project (obviously, have it installed before!).
 
 ```
-            git clone https://github.com/u-pi/K-means-algorithm.git
-            mvn clean package
+    git clone https://github.com/u-pi/K-means-algorithm.git
+    mvn clean package
 ```
 
 The `.jar` file should be in `target/` folder.
