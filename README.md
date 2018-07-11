@@ -6,7 +6,7 @@ A simple algorithm used to group data into clusters to help analyze it better. `
 ```
     ArrayList<Cluster> result = new ArrayList<Cluster>();
     Kmeans kmeans = new Kmeans(data, 5, 1000);
-	result = kmeans.iterate();
+    result = kmeans.iterate();
 ```
 
 The constructor takes the following parameters: 
